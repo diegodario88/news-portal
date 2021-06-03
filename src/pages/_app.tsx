@@ -6,14 +6,38 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Boilerplate</title>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
-        <link rel="apple-touch-icon" href="/images/favicon.ico" />
+        <title>Portal de Notícias</title>
         <link rel="manifest" href="manifest.json" />
-        <meta name="theme-color" content="#06092B" />
-        <meta
-          name="description"
-          content="A simple project starter to work with NextJs, React, TypeScript and Styled Components"
+        <meta name="description" content="Portal de notícias de Loanda - PR" />
+        <meta name="theme-color" content="#ffffff" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-icon-180x180.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/android-icon-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="/favicon-96x96.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
         />
       </Head>
       <GlobalStyles />
